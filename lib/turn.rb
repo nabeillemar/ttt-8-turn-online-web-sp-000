@@ -33,7 +33,7 @@ def turn(board)
   index = input_to_index(user_input)
   if valid_move?(board,index)
     return true
-  board(user_input)
+  display_boardboard(user_input)
   else 
     turn(board)
   end
