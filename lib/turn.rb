@@ -33,8 +33,6 @@ def turn(board)
   input_to_index(string)
   if valid_move?(board,index) && index.between(0,8)
     return true
-  else
-  string = gets.chomp
   end
 end 
 
