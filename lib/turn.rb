@@ -31,7 +31,7 @@ def turn(board)
   puts "Please enter 1-9:"
   string = gets.chomp
   input_to_index(string)
-  if valid_move?(board,index.between(0,8)
+  if valid_move?(board,index)
     return true
   end
 end 
