@@ -36,6 +36,7 @@ def turn(board)
   else 
     turn(board)
   end
+  board("X")
 end 
 
 =begin 
